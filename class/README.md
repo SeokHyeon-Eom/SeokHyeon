@@ -9,7 +9,7 @@ sys.path.append(C:\Users\User1)
 sys.path
 
 # 사용하는 방법
-from file.py import Hello
+from file import Hello
 ```
 다른 곳에서 모듈로 가져왔을 때는 실행되지 않고 직접 실행시켰을 때만 실행하기
 ```
