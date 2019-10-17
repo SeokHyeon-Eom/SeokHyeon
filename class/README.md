@@ -11,6 +11,13 @@ sys.path
 # 사용하는 방법
 from file import Hello
 ```
+또는
+```python
+from file
+file.Hello(변수)
+```
+를 사용한다.
+
 다른 곳에서 모듈로 가져왔을 때는 실행되지 않고 직접 실행시켰을 때만 실행하기
 ```
 if __name__ == '__main__':
