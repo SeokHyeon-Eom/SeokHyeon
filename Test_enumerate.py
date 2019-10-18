@@ -7,4 +7,4 @@ print("")
 
 li = [i for i in range(10)]
 for i in enumerate(li):
-    print(i, end=' ')
+    print(i, end=')
