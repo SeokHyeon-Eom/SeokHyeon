@@ -38,7 +38,7 @@ if __name__ == '__main__':
         if direc == 'front':
             drive(90, speed)
             if usonic_data[1] <= 30:
-                for i in rnage(50):
+                for i in range(50):
                     drive(90, 90)
                     time.sleep(0.1)
                 for i in range(2):
