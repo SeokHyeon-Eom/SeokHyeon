@@ -38,9 +38,8 @@ if __name__ == '__main__':
         if direc == 'front':
             drive(90, speed)
             if usonic_data[1] <= 30:
-                for i in range(50):
-                    drive(90, 90)
-                    time.sleep(0.1)
+                drive(90, 90)
+                time.sleep(5)
                 for i in range(2):
                     drive(90,90)
                     time.sleep(0.1)
@@ -51,9 +50,8 @@ if __name__ == '__main__':
         elif direc == 'back':
             drive(90, 70)
             if usonic_data[4] <= 30:
-                for i in range(50):
-                    drive(90, 90)
-                    time.sleep(0.1)
+                drive(90, 90)
+                time.sleep(5)
                 direc = 'front'
                 if speed < 130:
                     speed += 10
