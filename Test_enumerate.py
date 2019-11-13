@@ -5,6 +5,6 @@ for i in range(1, 10):
 
 print("")
 
-li = [i for i in range(10)]
+li = ['x' for i in range(10)]
 for i in enumerate(li):
     print(i, end=" ")

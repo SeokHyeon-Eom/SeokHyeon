@@ -53,7 +53,7 @@ if __name__ == '__main__':
                 cnt += 1
                 direc = 'back'
             else:
-	        drive(90, speed)
+	            drive(90, speed)
         elif direc == 'back':
             if usonic_data[4] <= 42:
                 drive(90, 90)
