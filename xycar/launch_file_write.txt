@@ -1,0 +1,4 @@
+런처 파일 작성 법
+<launch>
+  <node pkg="pkg_name" type="code_name" name="토픽이름이랑_같게_일반적"/>
+</launch>
