@@ -134,24 +134,24 @@ class LineDetector:
 #         speed = self.accelerate(angle, obs_l, obs_m, obs_r)
 #         self.driver.drive(angle + 90, speed + 90)
 
-#     def steer(self, left, right):
-#         mid = (left + right) // 2
-#         if mid < 280:
-#             angle = -40
-#         elif mid > 360:
-#             angle = 40
-#         else:
-#             if 510 <= right <= 560:
-#                 angle = -20
-#             elif 100 <= left <= 150:
-#                 angle = 20
-#             else:
-#                 angle = 0
+    # def steer(self, left, right):
+        # mid = (left + right) // 2
+        # if mid < 280:
+        #     angle = -40
+        # elif mid > 360:
+        #     angle = 40
+        # else:
+        #     if 510 <= right <= 560:
+        #         angle = -20
+        #     elif 100 <= left <= 150:
+        #         angle = 20
+        #     else:
+        #         angle = 0
         
-#         print("reft",left,"mid",mid,"right", right,)
-#         print("")
+        # print("reft",left,"mid",mid,"right", right,)
+        # print("")
         
-#         return angle
+        # return angle
 
 #     def accelerate(self, angle, left, mid, right):
 #         if min(left, mid, right) < 50:
